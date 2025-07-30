@@ -1,0 +1,1001 @@
+CustomerID,Age,Education,Review,Purchased
+1,26,PhD,Average,Yes
+2,59,Master,Average,Yes
+3,48,High School,Bad,No
+4,54,PhD,Good,Yes
+5,40,PhD,Good,Yes
+6,30,PhD,Good,No
+7,32,High School,Average,No
+8,31,High School,Average,Yes
+9,56,Bachelor,Bad,No
+10,52,Master,Bad,Yes
+11,48,PhD,Bad,Yes
+12,30,High School,Good,No
+13,34,High School,Good,No
+14,31,High School,Bad,No
+15,53,Bachelor,Bad,Yes
+16,59,High School,Average,No
+17,49,PhD,Bad,No
+18,47,PhD,Good,Yes
+19,29,PhD,Good,Yes
+20,33,High School,Bad,Yes
+21,52,High School,Average,No
+22,19,High School,Good,No
+23,49,Master,Bad,Yes
+24,21,PhD,Good,Yes
+25,56,Bachelor,Average,Yes
+26,32,Bachelor,Bad,Yes
+27,48,PhD,Good,No
+28,33,PhD,Average,Yes
+29,61,Master,Average,No
+30,19,High School,Average,No
+31,32,PhD,Good,Yes
+32,31,High School,Good,No
+33,54,Bachelor,Bad,No
+34,37,High School,Good,No
+35,24,High School,Good,No
+36,28,PhD,Average,No
+37,20,PhD,Average,Yes
+38,62,High School,Average,No
+39,30,Bachelor,Average,No
+40,23,High School,Average,No
+41,40,Bachelor,Good,No
+42,63,Bachelor,Average,No
+43,39,High School,Bad,Yes
+44,34,High School,Average,Yes
+45,65,High School,Bad,No
+46,43,Bachelor,Average,Yes
+47,50,Bachelor,Bad,No
+48,18,Master,Good,Yes
+49,46,Master,Bad,Yes
+50,49,Master,Good,Yes
+51,37,Master,Bad,Yes
+52,43,PhD,Bad,Yes
+53,62,Master,Good,No
+54,29,PhD,Good,Yes
+55,20,High School,Good,Yes
+56,28,PhD,Average,Yes
+57,49,Bachelor,Bad,Yes
+58,53,High School,Good,No
+59,27,Bachelor,Bad,Yes
+60,55,Master,Average,No
+61,23,High School,Average,No
+62,56,High School,Good,Yes
+63,53,Master,Good,Yes
+64,54,High School,Average,No
+65,45,PhD,Bad,No
+66,27,PhD,Good,Yes
+67,27,PhD,Good,No
+68,25,High School,Good,No
+69,47,Master,Bad,Yes
+70,60,PhD,Bad,No
+71,43,PhD,Bad,Yes
+72,43,Bachelor,Average,Yes
+73,48,Bachelor,Good,Yes
+74,23,Bachelor,Bad,No
+75,58,High School,Good,Yes
+76,28,Master,Average,Yes
+77,63,Master,Bad,Yes
+78,23,High School,Good,Yes
+79,36,PhD,Good,No
+80,43,PhD,Average,No
+81,60,Master,Good,Yes
+82,41,PhD,Average,Yes
+83,23,High School,Good,No
+84,49,Bachelor,Bad,Yes
+85,36,PhD,Bad,Yes
+86,36,Bachelor,Good,No
+87,58,Bachelor,Good,No
+88,21,Bachelor,Average,Yes
+89,33,High School,Bad,Yes
+90,38,PhD,Bad,Yes
+91,57,Master,Good,No
+92,64,Master,Good,Yes
+93,64,PhD,Good,No
+94,44,High School,Average,No
+95,41,Master,Average,No
+96,45,Bachelor,Good,No
+97,64,High School,Average,Yes
+98,45,Master,Average,No
+99,40,PhD,Average,No
+100,34,Bachelor,Average,Yes
+101,61,Master,Average,Yes
+102,35,Master,Average,Yes
+103,47,High School,Good,No
+104,30,Bachelor,Good,Yes
+105,59,Bachelor,Average,No
+106,37,Bachelor,Good,No
+107,31,PhD,Bad,No
+108,19,Master,Good,Yes
+109,42,Master,Good,No
+110,32,PhD,Good,No
+111,42,Bachelor,Good,No
+112,34,High School,Average,Yes
+113,54,High School,Good,No
+114,22,Master,Bad,Yes
+115,34,High School,Good,No
+116,62,PhD,Bad,No
+117,62,High School,Average,No
+118,19,High School,Good,No
+119,36,High School,Good,Yes
+120,65,PhD,Bad,No
+121,28,High School,Bad,Yes
+122,28,Bachelor,Good,Yes
+123,51,Bachelor,Good,No
+124,26,High School,Average,No
+125,39,Bachelor,Bad,Yes
+126,52,PhD,Average,No
+127,60,High School,Average,Yes
+128,46,PhD,Good,Yes
+129,55,PhD,Average,No
+130,21,Master,Average,No
+131,29,Bachelor,Average,Yes
+132,59,PhD,Average,Yes
+133,63,PhD,Good,No
+134,53,Master,Bad,Yes
+135,28,Master,Average,No
+136,59,PhD,Good,No
+137,50,PhD,Good,Yes
+138,22,High School,Average,No
+139,26,PhD,Good,Yes
+140,20,Master,Good,No
+141,38,Master,Bad,No
+142,54,High School,Average,Yes
+143,37,PhD,Average,No
+144,31,PhD,Good,No
+145,51,PhD,Bad,No
+146,20,High School,Good,No
+147,23,Master,Good,No
+148,62,High School,Bad,Yes
+149,60,Bachelor,Good,No
+150,53,Bachelor,Average,Yes
+151,44,PhD,Good,No
+152,50,Master,Bad,No
+153,43,High School,Bad,Yes
+154,31,Master,Bad,No
+155,36,PhD,Good,No
+156,22,PhD,Bad,Yes
+157,19,Bachelor,Bad,Yes
+158,47,Bachelor,Bad,No
+159,30,PhD,Bad,No
+160,58,Master,Bad,Yes
+161,46,High School,Bad,No
+162,30,High School,Average,No
+163,30,Master,Good,No
+164,44,PhD,Bad,No
+165,19,Bachelor,Good,Yes
+166,36,Master,Bad,No
+167,57,PhD,Good,No
+168,45,Master,Bad,No
+169,39,High School,Average,No
+170,37,Master,Bad,Yes
+171,45,PhD,Bad,Yes
+172,23,High School,Good,No
+173,38,High School,Bad,No
+174,44,PhD,Good,No
+175,18,Master,Average,Yes
+176,50,PhD,Good,No
+177,32,Bachelor,Bad,No
+178,38,Master,Good,Yes
+179,62,PhD,Bad,No
+180,25,PhD,Good,No
+181,42,Bachelor,Bad,No
+182,19,Bachelor,Bad,Yes
+183,29,High School,Average,No
+184,52,Master,Average,No
+185,55,Bachelor,Bad,No
+186,47,Bachelor,Good,Yes
+187,22,PhD,Bad,Yes
+188,63,Master,Average,Yes
+189,37,Master,Average,No
+190,27,PhD,Average,No
+191,31,PhD,Bad,Yes
+192,39,PhD,Average,Yes
+193,40,Master,Bad,Yes
+194,65,PhD,Bad,Yes
+195,60,PhD,Average,No
+196,40,Bachelor,Good,Yes
+197,32,Bachelor,Good,Yes
+198,65,Master,Average,No
+199,20,High School,Bad,No
+200,24,Bachelor,Bad,Yes
+201,50,High School,Average,Yes
+202,49,High School,Bad,No
+203,62,PhD,Bad,No
+204,57,Master,Good,No
+205,39,Master,Good,No
+206,24,PhD,Bad,No
+207,50,High School,Average,No
+208,21,Bachelor,Good,No
+209,58,Master,Bad,No
+210,54,High School,Average,Yes
+211,40,PhD,Bad,Yes
+212,58,High School,Bad,No
+213,48,PhD,Good,Yes
+214,19,PhD,Average,Yes
+215,38,Bachelor,Average,Yes
+216,47,PhD,Average,No
+217,37,PhD,Bad,Yes
+218,51,High School,Bad,No
+219,56,Master,Average,No
+220,53,PhD,Average,Yes
+221,18,Bachelor,Average,Yes
+222,39,High School,Bad,No
+223,46,High School,Average,No
+224,30,PhD,Average,Yes
+225,52,Master,Bad,No
+226,63,Master,Good,Yes
+227,20,Master,Bad,Yes
+228,31,Bachelor,Average,Yes
+229,29,Bachelor,Good,No
+230,34,Master,Average,Yes
+231,46,PhD,Average,Yes
+232,27,PhD,Good,No
+233,45,High School,Good,Yes
+234,50,Bachelor,Average,Yes
+235,21,Bachelor,Good,No
+236,28,Master,Bad,No
+237,53,Master,Bad,Yes
+238,27,PhD,Good,Yes
+239,32,Master,Average,No
+240,38,Bachelor,Bad,No
+241,28,Bachelor,Bad,No
+242,21,Master,Bad,Yes
+243,29,High School,Good,Yes
+244,36,Bachelor,Bad,Yes
+245,27,High School,Good,Yes
+246,28,High School,Good,Yes
+247,37,Master,Average,Yes
+248,61,Master,Bad,Yes
+249,55,PhD,Good,No
+250,39,PhD,Bad,Yes
+251,48,Bachelor,Good,No
+252,56,Master,Good,No
+253,33,Bachelor,Bad,No
+254,59,PhD,Good,No
+255,42,Master,Good,Yes
+256,20,Bachelor,Average,No
+257,42,Master,Good,Yes
+258,26,Bachelor,Bad,No
+259,28,PhD,Average,Yes
+260,30,Master,Good,No
+261,25,Master,Good,Yes
+262,39,PhD,Average,No
+263,46,PhD,Good,Yes
+264,22,PhD,Bad,No
+265,51,Master,Good,No
+266,22,PhD,Bad,Yes
+267,64,Master,Average,No
+268,48,Bachelor,Average,Yes
+269,31,High School,Average,Yes
+270,34,Bachelor,Average,No
+271,47,High School,Average,Yes
+272,64,Master,Bad,Yes
+273,45,Bachelor,Bad,Yes
+274,65,PhD,Average,Yes
+275,64,Bachelor,Bad,No
+276,41,High School,Bad,Yes
+277,65,Bachelor,Good,Yes
+278,29,PhD,Good,Yes
+279,46,Master,Good,Yes
+280,51,High School,Bad,No
+281,63,High School,Average,Yes
+282,59,High School,Bad,No
+283,38,High School,Good,Yes
+284,49,Bachelor,Average,Yes
+285,19,Master,Average,No
+286,37,PhD,Good,Yes
+287,58,Master,Average,No
+288,54,Master,Good,Yes
+289,62,PhD,Good,No
+290,49,Bachelor,Average,No
+291,49,High School,Average,Yes
+292,54,Master,Average,Yes
+293,19,Master,Average,Yes
+294,18,Bachelor,Good,Yes
+295,44,Bachelor,Average,Yes
+296,56,PhD,Average,Yes
+297,55,PhD,Good,No
+298,61,High School,Good,No
+299,41,Bachelor,Average,No
+300,32,PhD,Bad,Yes
+301,46,PhD,Average,No
+302,53,PhD,Good,Yes
+303,33,PhD,Bad,Yes
+304,28,Bachelor,Good,No
+305,37,Master,Good,Yes
+306,22,Bachelor,Bad,No
+307,46,High School,Good,No
+308,49,Bachelor,Bad,No
+309,63,High School,Average,No
+310,47,High School,Bad,Yes
+311,26,Bachelor,Good,No
+312,53,Bachelor,Good,No
+313,33,Bachelor,Bad,No
+314,22,High School,Average,Yes
+315,64,High School,Average,Yes
+316,40,High School,Average,Yes
+317,41,High School,Average,No
+318,37,Master,Good,Yes
+319,48,Master,Average,No
+320,34,High School,Good,Yes
+321,29,Bachelor,Good,No
+322,48,PhD,Bad,Yes
+323,24,PhD,Average,Yes
+324,37,High School,Good,Yes
+325,57,High School,Bad,No
+326,54,Bachelor,Average,Yes
+327,30,Bachelor,Good,Yes
+328,43,Bachelor,Average,Yes
+329,48,PhD,Bad,No
+330,37,High School,Good,No
+331,36,Bachelor,Good,No
+332,49,Master,Good,Yes
+333,37,Bachelor,Good,Yes
+334,52,Master,Bad,Yes
+335,37,High School,Bad,No
+336,29,Bachelor,Good,No
+337,26,Master,Good,Yes
+338,27,Master,Bad,No
+339,30,Bachelor,Good,No
+340,56,PhD,Bad,Yes
+341,40,PhD,Bad,Yes
+342,44,Bachelor,Good,No
+343,37,High School,Good,Yes
+344,60,Master,Average,Yes
+345,22,Bachelor,Good,No
+346,36,Bachelor,Average,Yes
+347,46,PhD,Bad,Yes
+348,30,Master,Good,Yes
+349,41,High School,Good,No
+350,47,Master,Average,No
+351,49,High School,Average,No
+352,24,Bachelor,Good,Yes
+353,61,PhD,Good,Yes
+354,56,Bachelor,Average,Yes
+355,58,High School,Bad,Yes
+356,35,Bachelor,Average,Yes
+357,36,PhD,Good,No
+358,25,PhD,Bad,Yes
+359,32,Master,Good,Yes
+360,41,Bachelor,Average,Yes
+361,27,High School,Good,Yes
+362,40,Master,Good,No
+363,26,PhD,Good,No
+364,44,High School,Average,Yes
+365,52,Master,Good,No
+366,20,High School,Average,No
+367,31,PhD,Bad,Yes
+368,38,High School,Average,No
+369,65,Master,Average,No
+370,44,Bachelor,Good,No
+371,65,Master,Bad,No
+372,27,PhD,Bad,No
+373,21,Bachelor,Good,No
+374,47,PhD,Bad,Yes
+375,60,Master,Bad,No
+376,28,High School,Average,Yes
+377,62,Master,Good,No
+378,47,PhD,Good,No
+379,29,PhD,Bad,No
+380,31,Bachelor,Good,No
+381,31,High School,Average,No
+382,43,High School,Good,No
+383,27,Master,Good,No
+384,32,Master,Average,Yes
+385,25,PhD,Average,Yes
+386,55,Master,Good,No
+387,54,High School,Bad,No
+388,32,Bachelor,Bad,No
+389,44,Master,Bad,No
+390,33,Bachelor,Good,No
+391,36,PhD,Average,Yes
+392,64,Master,Good,No
+393,24,Bachelor,Bad,Yes
+394,60,High School,Bad,No
+395,38,High School,Good,No
+396,22,High School,Average,No
+397,28,PhD,Average,No
+398,61,Bachelor,Average,No
+399,65,Master,Bad,Yes
+400,40,Bachelor,Good,No
+401,41,Master,Good,No
+402,24,Bachelor,Bad,No
+403,37,PhD,Good,No
+404,32,Bachelor,Bad,No
+405,60,PhD,Bad,Yes
+406,39,PhD,Bad,No
+407,63,Bachelor,Good,No
+408,55,PhD,Good,No
+409,22,High School,Bad,Yes
+410,33,Bachelor,Average,No
+411,44,High School,Good,No
+412,47,High School,Bad,No
+413,40,Master,Good,No
+414,39,PhD,Good,No
+415,60,High School,Good,No
+416,38,PhD,Bad,No
+417,59,PhD,Good,No
+418,50,Master,Average,No
+419,61,Master,Average,Yes
+420,46,High School,Bad,No
+421,54,High School,Good,Yes
+422,46,Bachelor,Average,Yes
+423,47,Bachelor,Average,No
+424,30,Master,Bad,Yes
+425,65,PhD,Average,No
+426,27,PhD,Good,No
+427,21,High School,Average,No
+428,63,Bachelor,Bad,No
+429,36,PhD,Average,No
+430,47,Bachelor,Average,Yes
+431,60,Bachelor,Good,Yes
+432,49,High School,Bad,No
+433,57,High School,Average,Yes
+434,59,High School,Average,No
+435,61,High School,Average,No
+436,62,High School,Average,No
+437,25,High School,Bad,No
+438,64,High School,Good,No
+439,27,PhD,Good,Yes
+440,58,PhD,Bad,No
+441,35,Master,Good,Yes
+442,48,PhD,Average,Yes
+443,45,PhD,Good,Yes
+444,57,PhD,Average,Yes
+445,49,High School,Good,Yes
+446,56,Bachelor,Good,Yes
+447,65,Bachelor,Average,Yes
+448,22,Master,Good,Yes
+449,23,PhD,Bad,No
+450,28,Bachelor,Average,Yes
+451,30,Bachelor,Good,No
+452,39,Bachelor,Average,Yes
+453,21,High School,Bad,Yes
+454,46,High School,Average,No
+455,33,Bachelor,Average,No
+456,20,Bachelor,Average,No
+457,49,Bachelor,Average,Yes
+458,47,Bachelor,Average,No
+459,59,Bachelor,Bad,Yes
+460,39,PhD,Good,Yes
+461,54,High School,Good,No
+462,36,Bachelor,Average,Yes
+463,29,Master,Bad,No
+464,43,Bachelor,Average,No
+465,31,Master,Average,Yes
+466,23,PhD,Bad,Yes
+467,53,Bachelor,Bad,Yes
+468,43,PhD,Average,No
+469,47,High School,Good,No
+470,21,PhD,Average,Yes
+471,44,High School,Good,No
+472,56,Master,Average,No
+473,20,Bachelor,Bad,Yes
+474,65,Master,Good,No
+475,28,Bachelor,Average,No
+476,53,Master,Bad,Yes
+477,22,PhD,Bad,No
+478,21,PhD,Good,Yes
+479,35,Master,Bad,No
+480,18,Master,Bad,Yes
+481,33,Master,Average,No
+482,51,PhD,Average,No
+483,55,Master,Bad,No
+484,52,PhD,Bad,No
+485,24,High School,Bad,Yes
+486,63,Master,Average,Yes
+487,18,PhD,Bad,Yes
+488,31,PhD,Good,No
+489,19,Master,Good,Yes
+490,53,High School,Bad,Yes
+491,28,Master,Good,No
+492,53,High School,Good,No
+493,23,High School,Average,No
+494,26,PhD,Good,No
+495,40,Bachelor,Average,Yes
+496,57,Master,Bad,No
+497,52,Master,Average,No
+498,21,High School,Good,Yes
+499,31,PhD,Average,No
+500,44,PhD,Good,No
+501,56,Master,Good,Yes
+502,32,Master,Good,No
+503,49,Master,Bad,No
+504,30,Master,Good,No
+505,63,PhD,Bad,No
+506,55,Bachelor,Good,No
+507,51,PhD,Bad,Yes
+508,28,PhD,Average,Yes
+509,48,Bachelor,Average,No
+510,34,Bachelor,Bad,No
+511,49,Bachelor,Bad,No
+512,25,PhD,Good,No
+513,29,PhD,Average,Yes
+514,62,Master,Average,Yes
+515,35,Master,Bad,No
+516,28,Master,Average,No
+517,19,Bachelor,Bad,No
+518,57,Master,Average,No
+519,36,Bachelor,Average,Yes
+520,53,Bachelor,Average,Yes
+521,42,PhD,Bad,No
+522,52,High School,Good,Yes
+523,53,PhD,Good,Yes
+524,58,High School,Bad,No
+525,35,High School,Good,Yes
+526,22,High School,Good,Yes
+527,28,Bachelor,Average,Yes
+528,64,PhD,Average,Yes
+529,54,PhD,Bad,No
+530,49,PhD,Average,Yes
+531,44,PhD,Bad,No
+532,53,High School,Bad,No
+533,55,Master,Good,Yes
+534,29,High School,Average,No
+535,31,High School,Good,Yes
+536,30,High School,Good,No
+537,32,PhD,Bad,No
+538,24,PhD,Bad,Yes
+539,50,High School,Average,Yes
+540,47,PhD,Average,Yes
+541,53,PhD,Bad,No
+542,51,Bachelor,Bad,No
+543,51,PhD,Good,No
+544,28,Bachelor,Bad,No
+545,52,Bachelor,Average,Yes
+546,33,Bachelor,Bad,Yes
+547,27,Bachelor,Average,No
+548,54,Bachelor,Average,No
+549,51,Master,Good,Yes
+550,40,PhD,Bad,Yes
+551,44,High School,Bad,No
+552,51,High School,Bad,Yes
+553,25,High School,Average,Yes
+554,46,PhD,Good,No
+555,39,PhD,Good,No
+556,31,PhD,Bad,Yes
+557,25,High School,Average,No
+558,61,High School,Good,No
+559,43,Master,Average,No
+560,57,Bachelor,Good,Yes
+561,24,Master,Good,Yes
+562,38,Bachelor,Good,No
+563,34,Bachelor,Average,Yes
+564,65,PhD,Good,No
+565,62,PhD,Bad,Yes
+566,57,PhD,Bad,No
+567,25,PhD,Bad,No
+568,59,Bachelor,Bad,No
+569,26,Bachelor,Average,No
+570,31,PhD,Bad,Yes
+571,55,Master,Good,Yes
+572,48,PhD,Bad,Yes
+573,39,PhD,Good,Yes
+574,49,High School,Average,Yes
+575,59,Master,Average,Yes
+576,61,PhD,Good,Yes
+577,60,PhD,Bad,Yes
+578,53,PhD,Bad,No
+579,45,Master,Average,Yes
+580,39,Bachelor,Average,Yes
+581,58,PhD,Good,Yes
+582,53,High School,Good,No
+583,59,PhD,Good,No
+584,33,Bachelor,Good,Yes
+585,19,PhD,Good,No
+586,41,Bachelor,Bad,Yes
+587,51,Bachelor,Good,No
+588,45,Bachelor,Good,Yes
+589,45,Master,Good,No
+590,23,PhD,Good,Yes
+591,61,High School,Good,No
+592,24,PhD,Average,No
+593,41,Master,Good,No
+594,50,Master,Average,Yes
+595,26,Master,Good,No
+596,49,High School,Average,No
+597,61,Master,Bad,Yes
+598,37,High School,Bad,No
+599,64,High School,Good,Yes
+600,35,High School,Average,No
+601,57,Bachelor,Good,No
+602,50,Master,Bad,Yes
+603,54,Bachelor,Bad,Yes
+604,61,Master,Average,Yes
+605,21,High School,Average,No
+606,43,High School,Bad,No
+607,51,High School,Bad,No
+608,34,Master,Bad,No
+609,45,High School,Average,No
+610,49,Bachelor,Good,No
+611,63,PhD,Bad,No
+612,48,High School,Bad,Yes
+613,28,Master,Average,No
+614,46,PhD,Average,No
+615,35,Master,Average,No
+616,20,Master,Bad,No
+617,44,Bachelor,Bad,Yes
+618,30,Bachelor,Bad,No
+619,40,Bachelor,Bad,No
+620,30,Bachelor,Average,No
+621,28,Bachelor,Average,Yes
+622,22,PhD,Good,No
+623,41,Bachelor,Bad,Yes
+624,37,Bachelor,Bad,Yes
+625,28,Master,Average,Yes
+626,23,Master,Average,No
+627,19,Master,Good,No
+628,50,High School,Good,No
+629,54,Bachelor,Bad,Yes
+630,21,High School,Bad,Yes
+631,38,PhD,Good,No
+632,42,PhD,Bad,No
+633,62,High School,Bad,No
+634,49,Bachelor,Good,No
+635,28,High School,Good,No
+636,52,Master,Bad,No
+637,29,Bachelor,Good,Yes
+638,22,High School,Bad,No
+639,33,Master,Good,Yes
+640,48,Master,Bad,No
+641,57,High School,Bad,Yes
+642,62,Master,Bad,No
+643,55,PhD,Bad,Yes
+644,28,High School,Average,No
+645,51,High School,Bad,No
+646,24,High School,Bad,No
+647,25,Master,Average,No
+648,24,Bachelor,Average,Yes
+649,53,Bachelor,Good,Yes
+650,36,High School,Average,No
+651,34,Master,Average,Yes
+652,23,PhD,Good,No
+653,36,Bachelor,Bad,Yes
+654,65,High School,Bad,No
+655,39,High School,Good,No
+656,49,PhD,Bad,Yes
+657,42,Master,Average,No
+658,25,Bachelor,Good,No
+659,47,PhD,Average,No
+660,56,Master,Good,Yes
+661,23,PhD,Average,No
+662,21,Master,Average,Yes
+663,51,PhD,Bad,Yes
+664,22,Master,Bad,No
+665,48,Master,Good,No
+666,42,High School,Average,Yes
+667,48,Master,Good,Yes
+668,26,High School,Average,No
+669,33,PhD,Good,No
+670,45,High School,Average,No
+671,48,Master,Good,No
+672,26,High School,Good,Yes
+673,65,Bachelor,Average,Yes
+674,38,Master,Average,Yes
+675,65,PhD,Good,Yes
+676,52,PhD,Bad,Yes
+677,30,Bachelor,Bad,No
+678,58,High School,Average,Yes
+679,65,PhD,Bad,Yes
+680,30,PhD,Average,No
+681,21,PhD,Average,Yes
+682,23,Bachelor,Good,Yes
+683,33,Bachelor,Bad,No
+684,57,High School,Good,Yes
+685,41,Master,Good,No
+686,43,PhD,Good,No
+687,48,Bachelor,Bad,No
+688,33,Bachelor,Bad,No
+689,27,Master,Average,No
+690,45,Master,Bad,Yes
+691,53,High School,Good,Yes
+692,38,PhD,Bad,Yes
+693,36,Bachelor,Bad,No
+694,43,Master,Good,Yes
+695,40,PhD,Good,No
+696,29,Master,Good,No
+697,41,High School,Average,No
+698,34,Bachelor,Good,No
+699,33,Master,Average,No
+700,42,Bachelor,Average,No
+701,27,Bachelor,Good,Yes
+702,63,High School,Bad,No
+703,32,Master,Average,Yes
+704,30,Bachelor,Good,Yes
+705,46,Master,Average,No
+706,20,Bachelor,Good,Yes
+707,53,Master,Bad,No
+708,65,PhD,Good,Yes
+709,28,Master,Bad,Yes
+710,42,Master,Average,Yes
+711,56,Master,Bad,No
+712,18,Master,Bad,No
+713,44,PhD,Average,No
+714,36,High School,Average,Yes
+715,61,PhD,Good,Yes
+716,38,High School,Average,Yes
+717,49,High School,Good,Yes
+718,30,Bachelor,Good,No
+719,43,PhD,Bad,Yes
+720,33,Master,Average,No
+721,19,High School,Good,No
+722,46,PhD,Bad,No
+723,48,Bachelor,Average,No
+724,41,High School,Average,No
+725,43,PhD,Average,No
+726,52,Bachelor,Good,Yes
+727,40,PhD,Good,No
+728,37,Master,Bad,No
+729,29,Bachelor,Bad,No
+730,29,PhD,Bad,Yes
+731,21,Bachelor,Good,Yes
+732,36,PhD,Average,Yes
+733,32,PhD,Bad,Yes
+734,47,High School,Bad,No
+735,48,High School,Average,Yes
+736,19,PhD,Average,No
+737,51,Bachelor,Average,No
+738,38,Master,Bad,No
+739,46,PhD,Bad,Yes
+740,29,High School,Bad,Yes
+741,26,Bachelor,Average,No
+742,47,PhD,Good,No
+743,48,Bachelor,Average,Yes
+744,55,PhD,Bad,No
+745,61,Master,Bad,No
+746,19,High School,Bad,Yes
+747,24,High School,Bad,No
+748,64,Bachelor,Good,No
+749,20,Bachelor,Good,Yes
+750,23,High School,Average,No
+751,62,Master,Average,Yes
+752,36,Master,Bad,No
+753,51,PhD,Average,Yes
+754,20,Master,Average,Yes
+755,34,Master,Average,Yes
+756,23,Master,Average,Yes
+757,21,PhD,Good,No
+758,52,Bachelor,Good,Yes
+759,62,Master,Good,No
+760,56,PhD,Good,No
+761,44,PhD,Bad,Yes
+762,65,Bachelor,Bad,No
+763,45,Bachelor,Bad,No
+764,24,Master,Good,Yes
+765,19,PhD,Bad,No
+766,23,High School,Bad,No
+767,65,Bachelor,Good,No
+768,20,PhD,Good,Yes
+769,23,Master,Average,Yes
+770,65,Master,Bad,No
+771,56,PhD,Average,Yes
+772,44,Master,Bad,No
+773,53,Bachelor,Bad,Yes
+774,36,Master,Good,Yes
+775,30,Master,Average,No
+776,51,High School,Average,Yes
+777,29,High School,Bad,Yes
+778,63,PhD,Average,Yes
+779,55,Bachelor,Average,No
+780,42,High School,Bad,No
+781,27,High School,Bad,Yes
+782,27,Bachelor,Bad,No
+783,40,PhD,Good,No
+784,41,Bachelor,Good,Yes
+785,62,Master,Good,No
+786,56,Master,Average,Yes
+787,37,Bachelor,Good,Yes
+788,46,PhD,Bad,No
+789,30,High School,Good,Yes
+790,52,High School,Average,No
+791,47,High School,Bad,No
+792,26,Bachelor,Good,Yes
+793,25,PhD,Good,Yes
+794,63,Master,Average,No
+795,35,Master,Bad,No
+796,33,PhD,Good,No
+797,41,High School,Average,No
+798,19,High School,Average,No
+799,29,PhD,Average,Yes
+800,18,PhD,Bad,Yes
+801,37,PhD,Good,No
+802,28,High School,Good,No
+803,38,PhD,Average,Yes
+804,64,Bachelor,Good,No
+805,58,PhD,Bad,Yes
+806,28,Master,Bad,No
+807,47,High School,Bad,Yes
+808,63,PhD,Average,No
+809,41,Bachelor,Good,Yes
+810,22,Master,Average,No
+811,46,Master,Bad,No
+812,64,Master,Good,Yes
+813,55,Master,Bad,No
+814,63,High School,Good,Yes
+815,40,Bachelor,Good,No
+816,48,PhD,Good,No
+817,56,Bachelor,Good,No
+818,31,Bachelor,Average,No
+819,20,Master,Bad,No
+820,60,High School,Bad,Yes
+821,61,High School,Average,No
+822,26,Master,Average,Yes
+823,23,High School,Good,Yes
+824,65,Bachelor,Average,No
+825,55,Bachelor,Average,Yes
+826,50,High School,Bad,Yes
+827,53,High School,Bad,Yes
+828,24,PhD,Average,Yes
+829,46,High School,Good,No
+830,18,Bachelor,Average,Yes
+831,39,Master,Average,Yes
+832,19,PhD,Average,Yes
+833,27,PhD,Bad,No
+834,56,Bachelor,Average,No
+835,26,High School,Average,No
+836,43,High School,Average,Yes
+837,60,Master,Bad,No
+838,56,PhD,Bad,Yes
+839,31,Bachelor,Bad,No
+840,48,High School,Bad,Yes
+841,57,PhD,Good,Yes
+842,19,Bachelor,Good,Yes
+843,26,High School,Average,Yes
+844,32,High School,Bad,Yes
+845,40,Bachelor,Good,Yes
+846,46,High School,Average,Yes
+847,23,High School,Average,No
+848,59,PhD,Good,Yes
+849,29,PhD,Bad,No
+850,26,PhD,Bad,No
+851,45,High School,Average,Yes
+852,37,High School,Average,No
+853,63,PhD,Good,No
+854,34,PhD,Average,No
+855,32,Master,Average,Yes
+856,41,High School,Average,No
+857,39,Master,Good,Yes
+858,42,Bachelor,Good,No
+859,51,Master,Good,No
+860,56,High School,Average,No
+861,56,High School,Good,No
+862,37,Master,Good,No
+863,61,PhD,Average,Yes
+864,19,PhD,Good,No
+865,33,PhD,Bad,No
+866,38,High School,Good,No
+867,48,High School,Good,Yes
+868,21,Bachelor,Average,No
+869,58,Bachelor,Good,Yes
+870,45,High School,Bad,No
+871,60,Master,Average,No
+872,37,Master,Bad,No
+873,63,Master,Good,No
+874,20,High School,Average,No
+875,57,Bachelor,Bad,Yes
+876,36,High School,Good,Yes
+877,60,Bachelor,Good,No
+878,49,PhD,Good,Yes
+879,59,High School,Good,No
+880,62,High School,Good,Yes
+881,27,High School,Average,No
+882,42,PhD,Average,No
+883,54,Bachelor,Average,Yes
+884,55,Master,Bad,Yes
+885,37,Bachelor,Bad,No
+886,23,High School,Good,Yes
+887,25,Bachelor,Bad,No
+888,50,Master,Good,No
+889,45,Master,Bad,No
+890,62,Master,Average,Yes
+891,38,Bachelor,Average,Yes
+892,37,Master,Average,No
+893,44,Bachelor,Good,Yes
+894,29,PhD,Good,No
+895,46,Master,Bad,No
+896,57,PhD,Bad,No
+897,42,Master,Good,Yes
+898,35,Bachelor,Bad,Yes
+899,34,PhD,Average,No
+900,25,Master,Average,No
+901,37,High School,Average,No
+902,64,Bachelor,Average,Yes
+903,42,High School,Good,Yes
+904,64,Master,Average,No
+905,20,High School,Average,Yes
+906,50,Bachelor,Bad,No
+907,61,High School,Good,Yes
+908,47,Bachelor,Average,Yes
+909,52,PhD,Good,No
+910,23,High School,Bad,Yes
+911,62,PhD,Average,Yes
+912,61,PhD,Average,Yes
+913,23,Master,Good,No
+914,65,Bachelor,Good,No
+915,32,Master,Good,No
+916,25,High School,Average,Yes
+917,22,Bachelor,Good,No
+918,34,Master,Bad,No
+919,34,PhD,Average,No
+920,21,Master,Bad,No
+921,21,PhD,Average,No
+922,30,Bachelor,Good,No
+923,23,PhD,Good,No
+924,57,Master,Good,No
+925,33,Master,Average,Yes
+926,65,High School,Average,No
+927,59,High School,Good,No
+928,46,Bachelor,Average,Yes
+929,65,High School,Average,Yes
+930,39,PhD,Average,Yes
+931,55,Master,Good,No
+932,50,PhD,Average,No
+933,30,High School,Average,Yes
+934,55,High School,Average,Yes
+935,31,Master,Average,No
+936,49,Master,Bad,No
+937,55,Bachelor,Bad,No
+938,30,High School,Good,Yes
+939,39,Master,Average,Yes
+940,46,Master,Good,No
+941,40,PhD,Good,Yes
+942,22,High School,Good,No
+943,57,High School,Good,No
+944,36,High School,Average,Yes
+945,28,High School,Average,Yes
+946,18,Master,Average,Yes
+947,35,High School,Bad,No
+948,38,Bachelor,Bad,Yes
+949,65,PhD,Bad,Yes
+950,64,High School,Bad,Yes
+951,50,PhD,Bad,No
+952,63,High School,Good,Yes
+953,22,Master,Good,Yes
+954,24,Bachelor,Good,Yes
+955,64,Master,Bad,Yes
+956,44,PhD,Good,Yes
+957,61,Bachelor,Bad,Yes
+958,65,Master,Average,No
+959,53,PhD,Good,No
+960,26,Master,Good,Yes
+961,56,Bachelor,Bad,Yes
+962,46,Master,Bad,No
+963,21,Bachelor,Good,Yes
+964,25,PhD,Good,Yes
+965,42,High School,Good,No
+966,32,Bachelor,Good,Yes
+967,32,Master,Bad,Yes
+968,34,High School,Good,No
+969,36,PhD,Bad,Yes
+970,31,High School,Good,Yes
+971,37,Bachelor,Bad,No
+972,24,PhD,Good,Yes
+973,31,Master,Good,No
+974,46,PhD,Bad,Yes
+975,42,Master,Good,Yes
+976,26,High School,Average,No
+977,48,Bachelor,Bad,Yes
+978,56,Bachelor,Bad,No
+979,22,PhD,Bad,Yes
+980,52,High School,Average,Yes
+981,29,High School,Average,Yes
+982,49,Bachelor,Good,No
+983,44,PhD,Average,Yes
+984,37,PhD,Bad,Yes
+985,30,PhD,Good,No
+986,54,Bachelor,Average,Yes
+987,25,High School,Good,No
+988,50,PhD,Good,No
+989,29,Master,Good,No
+990,42,PhD,Good,No
+991,22,PhD,Bad,Yes
+992,46,Bachelor,Bad,No
+993,52,High School,Bad,Yes
+994,54,Bachelor,Good,Yes
+995,46,Bachelor,Good,Yes
+996,56,High School,Bad,No
+997,64,PhD,Good,No
+998,19,PhD,Good,Yes
+999,21,PhD,Average,Yes
+1000,36,High School,Bad,No
